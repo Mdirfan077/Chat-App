@@ -20,10 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin:
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:5173"
-        : "https://chat-app-frontend-5o75.onrender.com", // 👈 apna exact frontend URL
+    origin: true,
     credentials: true,
   })
 );
