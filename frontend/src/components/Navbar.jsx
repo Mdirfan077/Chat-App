@@ -17,7 +17,7 @@ const Navbar = () => {
             className="flex items-center gap-3 hover:opacity-80 transition-all"
           >
             <img
-              src="/lpu-logo.png"
+              src="/screenshot-for-readme.png"
               alt="LPU Logo"
               className="w-10 h-10 object-contain"
             />
